@@ -20,6 +20,6 @@ Before you get started download the following speech and image datasets at the l
 │   ├── show_annotation.m
 ```
 
-* ImageNet
+* ## ImageNet
 
-* MSCOCO
+* ## MSCOCO

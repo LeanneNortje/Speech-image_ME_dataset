@@ -21,7 +21,7 @@ Before you get started download the following speech and image datasets at the l
 ```
 
 * ## ImageNet
-* 
+  
   Structure:
 
 ```bash
@@ -48,5 +48,13 @@ Before you get started download the following speech and image datasets at the l
 │   │   │   ├── ILSVRC2012_val_00028572.JPEG
 │   ├── LOC_synset_mapping.txt
 ```
+  
+To download the content for the ```train```, ```val```, ```test``` and ```Annotation``` folder, go [here]([https://data.caltech.edu/records/mzrjq-6wc02](https://image-net.org/download-images.php)).
+  
+For the training samples, download the ```Training images (Task 1 & 2)``` zip file under the 2012 Images of ```ImageNet Large-scale Visual Recognition Challenge (ILSVRC)```.
+For the validation images, download the ```Validation images (all tasks)``` zip file under the 2012 Images of ```ImageNet Large-scale Visual Recognition Challenge (ILSVRC)```.
+For the testing images, download the ```Test images (all tasks).``` zip file under the 2012 Images of ```ImageNet Large-scale Visual Recognition Challenge (ILSVRC)```.
+The Annotation files can be downloaded under ```Training bounding box annotations (Task 1 & 2 only) ``` under the bounding boxes of the 2012 ```ImageNet Large-scale Visual Recognition Challenge (ILSVRC)```.
+Lastly, download the ```LOC_synset_mapping.txt``` file [here](https://github.com/formigone/tf-imagenet/blob/master/LOC_synset_mapping.txt).
 
 * ## MSCOCO

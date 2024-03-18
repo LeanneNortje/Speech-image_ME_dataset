@@ -29,23 +29,23 @@ Before you get started download the following speech and image datasets at the l
 │   ├── Annotations
 │   ├── Data
 │   │   ├── test 
-│   │   ├── ILSVRC2012_test_00033334.JPEG
-│   │   ├── ILSVRC2012_test_00050001.JPEG
-│   │   ├── ...
-│   │   ├── ILSVRC2012_test_00066668.JPEG
-│   │   ├── ILSVRC2012_test_00083335.JPEG
+│   │   │   ├── ILSVRC2012_test_00033334.JPEG
+│   │   │   ├── ILSVRC2012_test_00050001.JPEG
+│   │   │   ├── ...
+│   │   │   ├── ILSVRC2012_test_00066668.JPEG
+│   │   │   ├── ILSVRC2012_test_00083335.JPEG
 │   │   ├── train
-│   │   ├── n01917289_968.JPEG
-│   │   ├── n02104029_956.JPEG
-│   │   ├── ...
-│   │   ├── n02342885_1950.JPEG
-│   │   ├── n02834397_34349.JPEG 
+│   │   │   ├── n01917289_968.JPEG
+│   │   │   ├── n02104029_956.JPEG
+│   │   │   ├── ...
+│   │   │   ├── n02342885_1950.JPEG
+│   │   │   ├── n02834397_34349.JPEG 
 │   │   ├── val 
-│   │   ├── ILSVRC2012_val_00007143.JPEG
-│   │   ├── ILSVRC2012_val_00014286.JPEG
-│   │   ├── ...
-│   │   ├── ILSVRC2012_val_00021429.JPEG
-│   │   ├── ILSVRC2012_val_00028572.JPEG
+│   │   │   ├── ILSVRC2012_val_00007143.JPEG
+│   │   │   ├── ILSVRC2012_val_00014286.JPEG
+│   │   │   ├── ...
+│   │   │   ├── ILSVRC2012_val_00021429.JPEG
+│   │   │   ├── ILSVRC2012_val_00028572.JPEG
 │   ├── LOC_synset_mapping.txt
 ```
 

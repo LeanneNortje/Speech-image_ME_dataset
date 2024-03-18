@@ -4,7 +4,9 @@ Image datasets:
 * Caltech-101
   
   [Download](https://data.caltech.edu/records/mzrjq-6wc02)
+  
   Structure:
+
   ├── __MACOSX
   │   ├── ._caltech-101
   │   ├── caltech-101

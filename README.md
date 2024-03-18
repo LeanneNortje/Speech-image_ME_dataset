@@ -58,3 +58,13 @@ The Annotation files can be downloaded under ```Training bounding box annotation
 Lastly, download the ```LOC_synset_mapping.txt``` file [here](https://github.com/formigone/tf-imagenet/blob/master/LOC_synset_mapping.txt).
 
 * ## MSCOCO
+
+# Speech datasets
+
+# Dataset generation
+
+Setup the image part of the dataset py running the scripts in the exact order:
+```
+python 1_process_Caltech.py
+python 2_process_ImageNet.py
+```

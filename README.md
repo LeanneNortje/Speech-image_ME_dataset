@@ -7,6 +7,7 @@ Image datasets:
   
   Structure:
 
+  \\\
   ├── __MACOSX
   │   ├── ._caltech-101
   │   ├── caltech-101
@@ -17,6 +18,7 @@ Image datasets:
   │   ├── 101_ObjectCategories.tar.gz
   │   ├── Annotations.tar
   │   ├── show_annotation.m
+  \\\
 
 * ImageNet
 

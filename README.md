@@ -65,6 +65,15 @@ Lastly, download the ```LOC_synset_mapping.txt``` file [here](https://github.com
 
 Setup the image part of the dataset py running the scripts in the exact order:
 ```
-python 1_process_Caltech.py
-python 2_process_ImageNet.py
+python 1_process_Caltech.py /path/to/caltech-101
+python 2_process_ImageNet.py /path/to/ImageNET
+python 3_process_COCO.py /path/to/MSCOCO
+python 4.py
+python 5.py
+python 6.py
+```
+
+Now generate the episodes:
+```
+python 8.py
 ```

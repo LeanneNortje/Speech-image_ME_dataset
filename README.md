@@ -68,12 +68,13 @@ Setup the image part of the dataset py running the scripts in the exact order:
 python 1_process_Caltech.py /path/to/caltech-101
 python 2_process_ImageNet.py /path/to/ImageNET
 python 3_process_COCO.py /path/to/MSCOCO
-python 4.py
-python 5.py
-python 6.py
+python 4.py /path/to/flickr_audio /path/to/buckeye /path/to/librispeech /path/to/spokencoco /path/to/caltech-101 /path/to/imagenet
+python 5.py /path/to/spokencoco
+python 6.py 
 ```
+Open ```7.ipynb``` and ```8.ipynb``` in jupyter notebook since you have to manually choose dev and test images for familiar classes in ```7.ipynb``` and for novel classes in ```8.ipynb```.
 
 Now generate the episodes:
 ```
-python 8.py
+python 9.py
 ```

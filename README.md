@@ -59,7 +59,7 @@ Lastly, download the ```LOC_synset_mapping.txt``` file [here](https://github.com
 
 * ## MSCOCO
 
-* Download the MSCOCO data [here](https://cocodataset.org/#download). We used the 2017 splits. Therefore, download ```2017 Train images [118K/18GB]```, ```2017 Val images [5K/1GB]```, and ```2017 Test images [41K/6GB]```. Also, download the ```2017 Panoptic Train/Val annotations [821MB]```. Extract all these in a MSCOCO folder named ```<any name for the MSCOCO dataset folder>``` so that your dataset directory looks like this:
+Download the MSCOCO data [here](https://cocodataset.org/#download). We used the 2017 splits. Therefore, download ```2017 Train images [118K/18GB]```, ```2017 Val images [5K/1GB]```, and ```2017 Test images [41K/6GB]```. Also, download the ```2017 Panoptic Train/Val annotations [821MB]```. Extract all these in a MSCOCO folder named ```<any name for the MSCOCO dataset folder>``` so that your dataset directory looks like this:
 
 ```bash
 ├── <any name for the MSCOCO dataset folder>
@@ -79,7 +79,30 @@ Lastly, download the ```LOC_synset_mapping.txt``` file [here](https://github.com
   
 * ## LibriSpeech
 
-  
+Download the LibriSpeech corpus [here](https://www.openslr.org/12) and specifically download the following:
+
+* ```train-clean-100.tar.gz ``` 
+* ```train-clean-360.tar.gz``` 
+* ```train-other-500.tar.gz```
+* ```dev-clean.tar.gz```
+* ```dev-other.tar.gz```
+* ```test-clean.tar.gz```
+* ```test-other.tar.gz```
+
+Extract all these in a MSCOCO folder named ```<any name for the LibriSpeech corpus folder>``` so that your dataset directory looks like this:
+
+```bash
+├── <any name for the LibriSpeech corpus folder>
+│   ├── train-clean-100
+│   ├── train-clean-360
+│   ├── train-other-500
+│   ├── dev-clean
+│   ├── dev-other
+│   ├── test-clean
+│   ├── test-other
+```
+To get forced alignments required for testing, use the [Montreal forced aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/). 
+Or simply use the words.txt file in the releases and paste it in the ```<any name for the LibriSpeech corpus folder>``` folder.
 
 # Dataset generation
 

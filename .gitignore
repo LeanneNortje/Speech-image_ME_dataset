@@ -9,6 +9,5 @@ data/imagenet.npz
 data/images.npz
 data/splited_me_dataset.npz
 
-*.py
 */__pycache__/*
 */__pycache__/*.pyc

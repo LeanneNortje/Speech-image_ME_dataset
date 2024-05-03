@@ -89,7 +89,7 @@ Download the LibriSpeech corpus [here](https://www.openslr.org/12) and specifica
 - [ ] ```dev-clean.tar.gz```
 - [ ] ```dev-other.tar.gz```
 - [ ] ```test-clean.tar.gz```
-- [ ]```test-other.tar.gz```
+- [ ] ```test-other.tar.gz```
 
 Extract all these in a MSCOCO folder named ```<any name for the LibriSpeech corpus folder>``` so that your dataset directory looks like this:
 

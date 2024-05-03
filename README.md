@@ -59,7 +59,27 @@ Lastly, download the ```LOC_synset_mapping.txt``` file [here](https://github.com
 
 * ## MSCOCO
 
+* Download the MSCOCO data [here](https://cocodataset.org/#download). We used the 2017 splits. Therefore, download ```2017 Train images [118K/18GB]```, ```2017 Val images [5K/1GB]```, and ```2017 Test images [41K/6GB]```. Also, download the ```2017 Panoptic Train/Val annotations [821MB]```. Extract all these in a MSCOCO folder named ```<any name for the MSCOCO dataset folder>``` so that your dataset directory looks like this:
+
+```bash
+├── <any name for the MSCOCO dataset folder>
+│   ├── panoptic_annotations_trainval2017
+│   ├── train2017
+│   ├── val017
+│   ├── test2017
+```
+
 # Speech datasets
+
+* ## Buckeye
+
+  
+* ## Flckr Audio
+
+  
+* ## LibriSpeech
+
+  
 
 # Dataset generation
 

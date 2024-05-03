@@ -81,13 +81,13 @@ Download the MSCOCO data [here](https://cocodataset.org/#download). We used the 
 
 Download the LibriSpeech corpus [here](https://www.openslr.org/12) and specifically download the following:
 
-* ```train-clean-100.tar.gz ``` 
-* ```train-clean-360.tar.gz``` 
-* ```train-other-500.tar.gz```
-* ```dev-clean.tar.gz```
-* ```dev-other.tar.gz```
-* ```test-clean.tar.gz```
-* ```test-other.tar.gz```
+- ```train-clean-100.tar.gz ``` 
+- ```train-clean-360.tar.gz``` 
+- ```train-other-500.tar.gz```
+- ```dev-clean.tar.gz```
+- ```dev-other.tar.gz```
+- ```test-clean.tar.gz```
+- ```test-other.tar.gz```
 
 Extract all these in a MSCOCO folder named ```<any name for the LibriSpeech corpus folder>``` so that your dataset directory looks like this:
 

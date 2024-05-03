@@ -77,6 +77,7 @@ Download the corpus [here](https://buckeyecorpus.osu.edu/).
   
 * ## Flckr Audio
 
+Download the corpus [here](https://groups.csail.mit.edu/sls/downloads/flickraudio/).
   
 * ## LibriSpeech
 
